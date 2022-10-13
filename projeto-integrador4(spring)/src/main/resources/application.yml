@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  data:
+    mongodb:
+      uri: mongodb+srv://lucascherri:lucaslucas@cluster0.28xfnwn.mongodb.net/?retryWrites=true&w=majority
+      database: cadastros
+  jpa:
+    hibernate:
+      ddl-auto: update
